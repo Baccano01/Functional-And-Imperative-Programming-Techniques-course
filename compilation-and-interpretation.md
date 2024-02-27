@@ -14,3 +14,11 @@ To execute enter on the terminal: <code>./myprogram</code>
 <code>runghc myprogram.hs</code>
 
 The above method will only interpret the program and not generate other files.
+
+### To make ghc throw warnings when needed:
+
+<code>ghc -Wall myprogram.hs</code>
+
+### To force recompilation of a program/module:
+
+<code>ghc myprogram.hs -fforce-recomp</code>
