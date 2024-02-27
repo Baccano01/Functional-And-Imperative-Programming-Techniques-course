@@ -1,4 +1,4 @@
-To compile a haskell program enter on the terminal:
+### To compile a haskell program/module enter on the terminal:
 
 <code>ghc myprogram.hs</code>
 
@@ -8,3 +8,9 @@ The compilation will generate two files:
    and information that can't be stored in *myprogram.o*.
 
 To execute enter on the terminal: <code>./myprogram</code>
+
+### To directly interpret a haskell program/module enter on the terminal:
+
+<code>runghc myprogram.hs</code>
+
+The above method will only interpret the program and not generate other files.
